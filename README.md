@@ -1,11 +1,11 @@
-About r-mitools
-===============
+About r-mitools-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mitools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=mitools
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mitools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools to perform analyses and combine results from multiple-imputation datasets.
 
