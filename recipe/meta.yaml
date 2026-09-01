@@ -1,4 +1,4 @@
-{% set version = '2.4' %}
+{% set version = "2.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mitools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mitools/mitools_{{ version }}.tar.gz
-  sha256: f204f3774e29d79810f579f128de892539518f2cbe6ed237e08c8e7283155d30
+  sha256: 805584eae67e1e9c5af8a707d5d7c8f75a4453cbc0206cf9eaad0b3cf8596deb
 
 build:
-  number: 6
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
